@@ -1,3 +1,4 @@
+
 // public class Main {
 //     public static void main(String[] args) {
 //         System.out.println("Hello, World!");
@@ -59,3 +60,50 @@
 //     }
 
 // }
+
+// Array
+
+// public class Main {
+//     public static void main(String[] args) {
+//         int[] marks = new int[4];
+//         marks[0] = 97;
+//         marks[1] = 98;
+//         marks[2] = 95;
+//         // marks[3];
+
+//         // System.out.println(marks[0]);
+//         // System.out.println(marks[1]);
+//         // System.out.println(marks[2]);
+//         // System.out.println(marks[3]);   // its take 0 default value  
+//         // System.out.println(marks);   
+
+//         // length
+//         // System.out.println(marks.length);
+//     }
+// }
+
+// public class Main {
+
+//     public static void main(String[] args){
+//         // casting
+//         double price = 100.00;
+//         double finalPrice = price + 10;
+
+//         System.out.println(finalPrice);
+//         // output 110 aayega kyuki ye dono double datatype hai toh casting is possible;
+
+//         // int p = 100;
+//         // int fp = p + 18.00;
+
+//         // System.out.println(fp); 
+//         // now error come because we put float value in (int) data type int byte is less then float that why error;
+        
+//         int p = 100;
+//         int fp = p + (int)18.00;
+//         // output 118 because  we use (int) so its remove float value just come int value remove value after (.) !
+
+//         System.out.println(fp); 
+//     }
+// }
+
+
