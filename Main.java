@@ -106,4 +106,63 @@
 //     }
 // }
 
+// opertor
+// Arithmetic Operators
+
+// public class Main {
+
+//     public static void main(String[] args){
+//       
+//         // * : Multiplication
+//          //  : Division
+//         // % : Modulo
+//         // + : Addition
+//         // – : Subtraction
+
+//         int a = 3;
+//         int b = 3;
+
+//         int sum = a+b;
+//         // int sum = a/b;
+
+//         System.out.println("The Sum is: " + sum);
+//     }
+// }
+
+//  Assignment Operator
+// ‘=’ Assignment operator is used to assign a value to any variable. 
+
+// public class Main {
+
+//     public static void main(String[] args){
+
+//         int f = 7;
+//         System.out.println("f += 3: " + (f += 3));
+//         System.out.println("f -= 2: " + (f -= 2));
+//         System.out.println("f *= 4: " + (f *= 4));
+//         System.out.println("f /= 3: " + (f /= 3));
+//         System.out.println("f %= 2: " + (f %= 2));
+//     }
+// }
+
+// Relational Operators
+public class Main {
+
+    public static void main(String[] args) {
+        int a = 10;
+        int b = 3;
+        int c = 5;
+
+        
+        System.out.println("a > b: " +  (a  > b));
+        System.out.println("a < b: " + (a < b));
+        System.out.println("a >= b: " + (a >= b));
+        System.out.println("a <= b: " + (a <= b));
+        System.out.println("a == c: " + (a == c));
+        System.out.println("a != c: " + (a != c));
+        
+    }
+}
+
+
 
