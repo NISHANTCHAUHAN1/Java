@@ -1,6 +1,7 @@
+package Basics;
 import java.util.Scanner;
 
-import javax.print.DocFlavor.STRING;
+// import javax.print.DocFlavor.STRING;
 
 // public class Main {
 //     public static void main(String[] args) {
@@ -8,12 +9,11 @@ import javax.print.DocFlavor.STRING;
 //     }
 // }
 
-
 // datatypes
 // public class Main {
 //     public static void main(String[] args) {
 //          // privite datatypes
-         
+
 //          // byte
 //          // short - 2
 //          // int - 4
@@ -27,7 +27,6 @@ import javax.print.DocFlavor.STRING;
 //         //  strings
 //     }
 // }
-
 
 // string inbuilt functions
 
@@ -100,7 +99,7 @@ import javax.print.DocFlavor.STRING;
 
 //         // System.out.println(fp); 
 //         // now error come because we put float value in (int) data type int byte is less then float that why error;
-        
+
 //         int p = 100;
 //         int fp = p + (int)18.00;
 //         // output 118 because  we use (int) so its remove float value just come int value remove value after (.) !
@@ -156,14 +155,13 @@ import javax.print.DocFlavor.STRING;
 //         int b = 3;
 //         int c = 5;
 
-
 //         System.out.println("a > b: " +  (a  > b));
 //         System.out.println("a < b: " + (a < b));
 //         System.out.println("a >= b: " + (a >= b));
 //         System.out.println("a <= b: " + (a <= b));
 //         System.out.println("a == c: " + (a == c));
 //         System.out.println("a != c: " + (a != c));
-        
+
 //     }
 // }
 
@@ -231,14 +229,13 @@ import javax.print.DocFlavor.STRING;
 //         else {
 //             System.out.println("G: Fail"); 
 //         }
-        
+
 //     }
 // }
 
 // &&, Logical AND: returns true when both conditions are true.
 // ||, Logical OR: returns true if at least one condition is true.
 // !, Logical NOT: returns true when a condition is false and vice-versa
-
 
 // loops
 
@@ -279,5 +276,73 @@ import javax.print.DocFlavor.STRING;
 //             System.out.println(i);
 //             i++;
 //         }
+//     }
+// }
+
+// break and continue
+
+// public class Main {
+//     public static void main(String[] args) {
+//         // int i=0;
+//         // while(i <= 10) {
+//         // if(i > 6){
+//         // break;
+//         // }
+//         // System.out.println(i);
+//         // i++;
+//         // }
+
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("Enter a number to skip:");
+//         int num = sc.nextInt();
+
+//         for (int i = 0; i <= 10; i++) {
+//             if (i == num) {
+//                 continue; // Skip this iteration if i equals num
+//             }
+//             System.out.println(i); // Print the number
+//         }
+
+//     }
+// }
+
+
+ // try catch
+
+//  public class Main {
+ 
+//     public static void main(String[] args){
+//         int[] marks = {65, 66, 67};
+//         // System.out.println(marks[3]);    
+
+//         // its return error because marks[3] are out of array length 
+//         // error occur so it not print next line to fix this issue we use try catch
+
+//         // System.out.println("hey nish");
+
+//         try {
+//             System.out.println(marks[3]);    
+//             // the length of array is 2 and i try to access marks[3] but i dont get error because of try catch
+//         } catch (Exception e) {
+//             System.out.println("hey nish");
+//         }
+//     }
+//  }
+
+
+       // methods / function
+// public class Main {
+
+//     public static void sayhello(){
+//         System.out.println("hello bhai ");
+//     }
+
+//     public static int addNum(int a, int b) {
+//         return a + b; // Return the sum of a and b
+//     }
+    
+//     public static void main(String[] args){
+//         sayhello();
+//         System.out.println(addNum(7,5));
 //     }
 // }
