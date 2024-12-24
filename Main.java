@@ -1,3 +1,6 @@
+import java.util.Scanner;
+
+import javax.print.DocFlavor.STRING;
 
 // public class Main {
 //     public static void main(String[] args) {
@@ -146,23 +149,135 @@
 // }
 
 // Relational Operators
-public class Main {
+// public class Main {
 
-    public static void main(String[] args) {
-        int a = 10;
-        int b = 3;
-        int c = 5;
+//     public static void main(String[] args) {
+//         int a = 10;
+//         int b = 3;
+//         int c = 5;
 
+
+//         System.out.println("a > b: " +  (a  > b));
+//         System.out.println("a < b: " + (a < b));
+//         System.out.println("a >= b: " + (a >= b));
+//         System.out.println("a <= b: " + (a <= b));
+//         System.out.println("a == c: " + (a == c));
+//         System.out.println("a != c: " + (a != c));
         
-        System.out.println("a > b: " +  (a  > b));
-        System.out.println("a < b: " + (a < b));
-        System.out.println("a >= b: " + (a >= b));
-        System.out.println("a <= b: " + (a <= b));
-        System.out.println("a == c: " + (a == c));
-        System.out.println("a != c: " + (a != c));
+//     }
+// }
+
+// public class Main {
+
+//     public static void main(String[] args) {
+//         // take input
+//         Scanner sc = new Scanner(System.in);
+//         // System.out.println("Enter the age");
+//         // int age = sc.nextInt();
+//         // System.out.println(age);
+
+//         System.out.println("enter the age");
+//         float age = sc.nextFloat();
+//         System.out.println(age); 
+//     }
+// }
+
+// condtitions
+// public class Main {
+
+//     public static void main(String[] args){
+//         // boolean isSignup = false;
+
+//         // if((isSignup)){
+//         //     System.out.println("true");
+//         // }
+//         // else{
+//         //     System.out.println(false);
+//         // }
+
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("Enter the age");
+//         int age = sc.nextInt();
+//         // System.out.println(age);
+//         if(age >= 18){
+//             System.out.println("they can vote");
+//         }
+//         else{
+//             System.out.println("they can not vote age is less the 18");
+//         }
+//     } 
+// }
+
+// condtitions & logical operator
+// public class Main {
+
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("Enter the marks");
+//         int marks = sc.nextInt();
+//         System.out.println("marks is : " + marks);
+
+//         if (marks >= 40 && marks <= 50) {
+//             System.out.println("G : C");
+//         } else if (marks > 50 && marks <= 70) {
+//             System.out.println("G: B");
+//         }
+//         else if(marks > 70 && marks <= 100) {
+//             System.out.println("G : A");  
+//         } 
+//         else if(marks > 100) {
+//             System.out.println("chutiye hai kya");
+//         }
+//         else {
+//             System.out.println("G: Fail"); 
+//         }
         
-    }
-}
+//     }
+// }
+
+// &&, Logical AND: returns true when both conditions are true.
+// ||, Logical OR: returns true if at least one condition is true.
+// !, Logical NOT: returns true when a condition is false and vice-versa
 
 
+// loops
 
+// public class Main {
+//     public static void main(String[] args){
+//         for(int i=1; i<=10; i++){
+//             System.out.println(i);
+//         }
+//     }
+// }
+
+// public class Main {
+//     public static void main(String[] args){
+//         // for(int i=0; i<=20; i++){
+//         //     if(i %2 != 0){
+//         //         System.out.println(i);
+//         //     }
+//         // }
+
+//         // for(int i=1; i<=20; i++){
+//         //     System.out.println(i * 2);
+//         // }
+
+//         // int sum = 0;
+//         // for(int i=0;i<=10; i++){
+//         //     sum += i;
+//         //     System.out.println(sum);
+//         // }
+//     }
+// }
+
+// while loop
+
+// public class Main {
+//     public static void main(String[] args){
+//         int i = 1;
+//         while(i <= 10){
+//             System.out.println(i);
+//             i++;
+//         }
+//     }
+// }
