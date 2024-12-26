@@ -16,7 +16,6 @@
 //     }
 // }
 
-
 // Inheritance 
 // 1. Single Inheritance
 
@@ -26,7 +25,6 @@
 //         return a+b;
 //     }
 // }
-
 
 // // subclass inherit from superclass;
 // class Dog extends Animal {
@@ -42,7 +40,6 @@
 //         System.out.println(dog.sub(7,2));
 //     }
 // }
-
 
 // 2.mutlilevel Inheritance
 
@@ -72,8 +69,6 @@
 //         anim.bark();
 //     }
 // }
-
-
 
 // 3.Hierarchical Inheritance
 
@@ -112,31 +107,125 @@
 // Multiple Inheritance
 
 // First interface
-interface A{
-    void methodA();
-}
+// interface A{
+//     void methodA();
+// }
 
-interface B{
-    void methodB();
-}
+// interface B{
+//     void methodB();
+// }
 
-class C implements A, B  {
-    public void methodA() {
-        System.out.println("its method A");
-    }
+// class C implements A, B  {
+//     public void methodA() {
+//         System.out.println("its method A");
+//     }
 
-    public void methodB() {
-        System.out.println("its method B");
-    }
-}
+//     public void methodB() {
+//         System.out.println("its method B");
+//     }
+// }
 
-public class Main{
-    public static void main(String[] args){
-        C obj = new C();
-        obj.methodA();
-        obj.methodB();
-    }
-}
+// public class Main{
+//     public static void main(String[] args){
+//         C obj = new C();
+//         obj.methodA();
+//         obj.methodB();
+//     }
+// }
+
+// exception handling
+
+// public class Main {
+//     public static void main(String[] args) {
+//         try {
+//             int result = 36/0;
+//         } catch(ArithmeticException e) {
+//             System.out.println("Error: " + e.getMessage());
+//         }
+//     }
+// }
+
+// public class Main {
+//     public static void main(String[] args) {
+//         try {
+//             int result = 10 / 0; // Code that may throw an exception
+//         } catch (ArithmeticException e) {
+//             System.out.println("Cannot divide by zero!"); // Handling exception
+//         } finally {
+//             System.out.println("This block always executes."); // Optional cleanup
+//         }
+//     }
+// }
+
+// throw / throws
+
+// public void Main (int age) {
+//     if (age < 18) {
+//         throw new IllegalArgumentException("Age must be 18 or above.");
+//     }
+// }
+
+// public class Main {
+//     // Method that explicitly throws an ArithmeticException
+//     public static void example() {
+//         throw new ArithmeticException("divide by 0"); // Throwing an exception with a custom message
+//     }
+    
+//     public static void main(String[] args) {
+//         // Calling the example method, which will throw an exception
+//         example();
+//     }
+// }
+
+
+
+
+// public class Main {
+//     // Method that declares an exception (ArithmeticException) may be thrown
+//     public static void example() throws ArithmeticException {
+//         int result = 36 / 0;  // This will throw an ArithmeticException (divide by 0)
+//     }
+
+//     public static void main(String[] args) {
+//         try {
+//             example();  // Calling the method that may throw an exception
+//         } catch (ArithmeticException e) {  // Catching the ArithmeticException
+//             System.out.println(e);  // Printing the exception message (divide by 0)
+//         }
+//     }
+// }
+
+// multitherading
+
+// class EvenThread extends Thread {
+//     public void run() {
+//         for (int i = 2; i <= 10; i += 2) {
+//             System.out.println("Even: " + i);
+//         }
+//     }
+// }
+
+// class OddThread extends Thread {
+//     public void run() {
+//         for (int i = 1; i <= 9; i += 2) {
+//             System.out.println("Odd: " + i);
+//         }
+//     }
+// }
+
+// public class Main {
+//     public static void main(String[] args) {
+//         EvenThread even = new EvenThread();
+//         OddThread odd = new OddThread();
+        
+//         even.run(); // Start even thread
+//         odd.start();  // Start odd thread
+//     }
+// }
+
+
+
+
 
 
 
