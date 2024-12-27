@@ -223,6 +223,41 @@
 //     }
 // }
 
+// Runnable to print even numbers
+// class EvenRunnable implements Runnable {
+//     public void run() {
+//         for (int i = 2; i <= 5; i += 2) {
+//             System.out.println("Even: " + i);
+//         }
+//     }
+// }
+
+// Runnable to print odd numbers
+// class OddRunnable implements Runnable {
+//     public void run() {
+//         for (int i = 1; i <= 5; i += 2) {
+//             System.out.println("Odd: " + i);
+//         }
+//     }
+// }
+
+// // Main class
+// public class Main {
+//     public static void main(String[] args) {
+//         // Create runnable objects
+//         Runnable evenRunnable = new EvenRunnable();
+//         Runnable oddRunnable = new OddRunnable();
+
+//         // Create threads with runnable objects
+//         Thread evenThread = new Thread(evenRunnable);
+//         Thread oddThread = new Thread(oddRunnable);
+
+//         // Start the threads
+//         evenThread.start();
+//         oddThread.start();
+//     }
+// }
+
 
 
 
