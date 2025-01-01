@@ -259,6 +259,140 @@
 // }
 
 
+///
+
+
+class Person {
+    // Private fields
+    private String name;
+    private int age;
+
+    // Public getter for name
+    public String getName() {
+        return name;
+    }
+
+    // Public setter for name
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    // Public getter for age
+    public int getAge() {
+        return age;
+    }
+
+    // Public setter for age
+    public void setAge(int age) {
+        if (age > 0) { // Simple validation
+            this.age = age;
+        } else {
+            System.out.println("Age must be positive.");
+        }
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Person person = new Person();
+
+        // Set values using setters
+        person.setName("John");
+        person.setAge(25);
+
+        // Access values using getters
+        System.out.println("Name: " + person.getName());
+        System.out.println("Age: " + person.getAge());
+
+        // Try setting an invalid age
+        person.setAge(-5); // Shows validation message
+    }
+}
+
+
+
+// Class representing a Bank Account
+// class BankAccount {
+//     // Private fields (data hiding)
+//     private String accountHolderName;
+//     private double balance;
+
+//     // Public constructor to initialize the account
+//     public BankAccount(String accountHolderName, double initialBalance) {
+//         this.accountHolderName = accountHolderName;
+//         if (initialBalance >= 0) {
+//             this.balance = initialBalance;
+//         } else {
+//             System.out.println("Initial balance cannot be negative. Setting balance to 0.");
+//             this.balance = 0;
+//         }
+//     }
+
+//     // Public getter for account holder name
+//     public String getAccountHolderName() {
+//         return accountHolderName;
+//     }
+
+//     // Public setter for account holder name
+//     public void setAccountHolderName(String accountHolderName) {
+//         this.accountHolderName = accountHolderName;
+//     }
+
+//     // Public getter for balance
+//     public double getBalance() {
+//         return balance;
+//     }
+
+//     // Method to deposit money
+//     public void deposit(double amount) {
+//         if (amount > 0) {
+//             balance += amount;
+//             System.out.println("Deposited: " + amount);
+//         } else {
+//             System.out.println("Deposit amount must be positive.");
+//         }
+//     }
+
+//     // Method to withdraw money
+//     public void withdraw(double amount) {
+//         if (amount > 0 && amount <= balance) {
+//             balance -= amount;
+//             System.out.println("Withdrawn: " + amount);
+//         } else if (amount > balance) {
+//             System.out.println("Insufficient balance.");
+//         } else {
+//             System.out.println("Withdrawal amount must be positive.");
+//         }
+//     }
+// }
+
+// public class Main {
+//     public static void main(String[] args) {
+//         // Create a new BankAccount object
+//         BankAccount account = new BankAccount("John Doe", 500.0);
+
+//         // Access and modify account details using public methods
+//         System.out.println("Account Holder: " + account.getAccountHolderName());
+//         System.out.println("Current Balance: " + account.getBalance());
+
+//         // Deposit money
+//         account.deposit(200.0);
+//         System.out.println("Updated Balance: " + account.getBalance());
+
+//         // Withdraw money
+//         account.withdraw(150.0);
+//         System.out.println("Updated Balance: " + account.getBalance());
+
+//         // Try withdrawing an amount greater than the balance
+//         account.withdraw(600.0);
+
+//         // Change account holder name
+//         account.setAccountHolderName("Jane Doe");
+//         System.out.println("Updated Account Holder: " + account.getAccountHolderName());
+//     }
+// }
+
+
 
 
 
